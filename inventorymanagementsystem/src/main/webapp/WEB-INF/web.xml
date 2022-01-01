@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Login</servlet-name>
+  	<display-name>Login</display-name>
+  	<description></description>
+  	<servlet-class>com.mittal.controller.LoginController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>InwardController</servlet-name>
+  	<display-name>InwardController</display-name>
+  	<description></description>
+  	<servlet-class>com.mittal.controller.InwardController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Logout</servlet-name>
+  	<display-name>Logout</display-name>
+  	<description></description>
+  	<servlet-class>com.mittal.controller.Logout</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogoutController</servlet-name>
+  	<display-name>LogoutController</display-name>
+  	<description></description>
+  	<servlet-class>com.mittal.controller.LogoutController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>StockController</servlet-name>
+  	<display-name>StockController</display-name>
+  	<description></description>
+  	<servlet-class>com.mittal.controller.StockController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Login</servlet-name>
+  	<url-pattern>/getLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>InwardController</servlet-name>
+  	<url-pattern>/InwardController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Logout</servlet-name>
+  	<url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogoutController</servlet-name>
+  	<url-pattern>/LogoutController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>StockController</servlet-name>
+  	<url-pattern>/StockController</url-pattern>
+  </servlet-mapping>
+</web-app>
