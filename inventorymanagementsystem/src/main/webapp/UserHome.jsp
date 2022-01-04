@@ -129,14 +129,13 @@ header{
   		
   		 --%>
   		 
-  	<header>
+<!--   	<header>
         <nav class="navbar">
             <ul>
-             	<li><a href="http://localhost:8081/inventorymanagementsystemclone/index.jsp">HOME</a></li>
             	<li><a href="">LOGOUT</a></li>
             </ul>
         </nav>
-    </header>
+    </header> -->
     
     
   		 <div class="container">

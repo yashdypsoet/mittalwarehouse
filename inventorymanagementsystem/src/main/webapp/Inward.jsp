@@ -160,9 +160,8 @@ color:#1a1a1a;
     <header>
         <nav class="navbar">
             <ul>
-             	<li><a href="http://localhost:8081/inventorymanagementsystemclone/index.jsp">HOME</a></li>
+             	<li><a href=http://localhost:8081/inventorymanagementsystemclone/UserHome.jsp>HOME</a></li>
             	<li><a href="http://localhost:8081/inventorymanagementsystemclone/Outward.jsp">OUTWARD</a></li>
-            	<li><a href="http://localhost:8081/inventorymanagementsystemclone/index.jsp">LOGOUT</a></li>
             </ul>
         </nav>
     </header>
